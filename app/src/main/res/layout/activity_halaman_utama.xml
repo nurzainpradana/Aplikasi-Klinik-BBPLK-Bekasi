@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".ui.halamanutama.HalamanUtama">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Halaman Utama"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_bbplk_bekasi"
+        android:layout_marginTop="32dp"/>
+    <Button
+        android:id="@+id/button_data_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Pasien"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/button_data_dokter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Dokter"/>
+    <Button
+        android:id="@+id/button_data_rekammedis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Rekam Medis"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By Nur Zain Pradana"
+        android:layout_marginTop="8dp"/>
+
+
+</LinearLayout>
