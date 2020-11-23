@@ -33,7 +33,7 @@ public class DataPasien extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data_pasien);
 
-        btnTambahPasien = findViewById(R.id.bt_tambah_pasien);
+        btnTambahPasien = findViewById(R.id.bt_tambah_dokter);
         btnTambahPasien.setOnClickListener(view -> {
             Intent goToTambahPasien = new Intent(DataPasien.this, TambahPasien.class);
             startActivity(goToTambahPasien);

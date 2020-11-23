@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    tools:context=".ui.login.MainActivity">
+    tools:context=".ui.dokter.DataDokter">
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
-        android:text="Data Pasien"
+        android:text="Data Dokter"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/listview_data_pasien"
+        android:id="@+id/listview_data_dokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -32,7 +32,7 @@
         android:id="@+id/bt_tambah_dokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tambah Pasien Baru"
+        android:text="Tambah Dokter Baru"
         android:layout_marginBottom="32dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"

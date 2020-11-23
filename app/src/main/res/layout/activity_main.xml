@@ -36,11 +36,11 @@
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword"
-        android:layout_above="@+id/bt_tambah_pasien"
+        android:layout_above="@+id/bt_tambah_dokter"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <Button
-        android:id="@+id/bt_tambah_pasien"
+        android:id="@+id/bt_tambah_dokter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"

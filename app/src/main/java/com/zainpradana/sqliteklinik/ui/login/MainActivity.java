@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         etUser = (EditText) findViewById(R.id.et_username);
         etPass = (EditText) findViewById(R.id.et_password);
-        btnLogin = (Button) findViewById(R.id.bt_tambah_pasien);
+        btnLogin = (Button) findViewById(R.id.bt_tambah_dokter);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
