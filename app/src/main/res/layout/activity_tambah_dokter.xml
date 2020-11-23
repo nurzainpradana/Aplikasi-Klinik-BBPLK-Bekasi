@@ -130,7 +130,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Spesialis" />
+            android:text="Tarif" />
         <EditText
             android:id="@+id/et_tarif"
             android:layout_width="match_parent"

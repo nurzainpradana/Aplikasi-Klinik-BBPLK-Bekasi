@@ -39,8 +39,8 @@ public class DataDokter extends AppCompatActivity {
 
         btnTambahDokter = findViewById(R.id.bt_tambah_dokter);
         btnTambahDokter.setOnClickListener(view -> {
-//            Intent goToTambahDokter = new Intent(DataDokter.this, TambahDokter.class);
-//            startActivity(goToTambahDokter);
+            Intent goToTambahDokter = new Intent(DataDokter.this, TambahDokter.class);
+            startActivity(goToTambahDokter);
         });
 
         dd = this;
