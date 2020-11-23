@@ -48,7 +48,7 @@ public class DataDokter extends AppCompatActivity {
         RefreshList();
     }
 
-    private void RefreshList() {
+    public void RefreshList() {
         SQLiteDatabase db = dbCenter.getReadableDatabase();
         cursor = db.rawQuery("SELECT * FROM dokter", null);
         daftarDokter = new String[cursor.getCount()];
