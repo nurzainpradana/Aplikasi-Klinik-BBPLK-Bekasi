@@ -79,10 +79,10 @@ public class DataRekamMedis extends AppCompatActivity {
                                 break;
 
                             case 1:
-//                                Intent goToUpdateRekamMedis = new Intent(DataRekamMedis.this, UpdateRekamMedis.class);
-//                                goToUpdateRekamMedis.putExtra("norekam", selection);
-//                                Toast.makeText(getApplicationContext(), selection.toString(), Toast.LENGTH_SHORT).show();
-//                                startActivity(goToUpdateRekamMedis);
+                                Intent goToUpdateRekamMedis = new Intent(DataRekamMedis.this, UpdateRekamMedis.class);
+                                goToUpdateRekamMedis.putExtra("norekam", selection);
+                                Toast.makeText(getApplicationContext(), selection.toString(), Toast.LENGTH_SHORT).show();
+                                startActivity(goToUpdateRekamMedis);
                                 break;
 
                             case 2:
