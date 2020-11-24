@@ -36,5 +36,12 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        testMode();
+    }
+
+    private void testMode() {
+        etUser.setText("admin");
+        etPass.setText("admin");
     }
 }

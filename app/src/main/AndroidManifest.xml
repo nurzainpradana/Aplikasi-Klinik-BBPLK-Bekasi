@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SQLiteKlinik">
-        <activity android:name=".ui.dokter.UpdateDokter"></activity>
+        <activity android:name=".ui.rekammedis.LihatRekamMedis"></activity>
+        <activity android:name=".ui.rekammedis.TambahRekamMedis" />
+        <activity android:name=".ui.rekammedis.DataRekamMedis" />
+        <activity android:name=".ui.dokter.UpdateDokter" />
         <activity android:name=".ui.dokter.LihatDokter" />
         <activity android:name=".ui.dokter.TambahDokter" />
         <activity android:name=".ui.dokter.DataDokter" />
