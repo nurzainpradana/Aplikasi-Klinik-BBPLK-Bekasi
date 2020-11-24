@@ -81,10 +81,10 @@ public class DataDokter extends AppCompatActivity {
                                 break;
 
                             case 1:
-//                                Intent goToUpdateDokter = new Intent(DataDokter.this, UpdateDokter.class);
-//                                goToUpdateDokter.putExtra("nodokter", selection);
-//                                Toast.makeText(getApplicationContext(), selection.toString(), Toast.LENGTH_SHORT).show();
-//                                startActivity(goToUpdateDokter);
+                                Intent goToUpdateDokter = new Intent(DataDokter.this, UpdateDokter.class);
+                                goToUpdateDokter.putExtra("nodokter", selection);
+                                Toast.makeText(getApplicationContext(), selection.toString(), Toast.LENGTH_SHORT).show();
+                                startActivity(goToUpdateDokter);
                                 break;
 
                             case 2:
