@@ -75,9 +75,9 @@ public class DataDokter extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int item) {
                         switch (item){
                             case 0:
-//                                Intent goToLihatDokter = new Intent(DataDokter.this, LihatDokter.class);
-//                                goToLihatDokter.putExtra("nodokter", selection);
-//                                startActivity(goToLihatDokter);
+                                Intent goToLihatDokter = new Intent(DataDokter.this, LihatDokter.class);
+                                goToLihatDokter.putExtra("nodokter", selection);
+                                startActivity(goToLihatDokter);
                                 break;
 
                             case 1:

@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="32dp"
-            android:text="Update Pasien"
+            android:text="Lihat Pasien"
             android:textAlignment="center"
             android:textSize="24sp" />
         <TextView
@@ -30,9 +30,7 @@
             android:id="@+id/tv_nomor_pasien"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nomor Pasien"
-            android:inputType="number"
-            android:maxLength="10"/>
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/textView2"
@@ -44,9 +42,7 @@
             android:id="@+id/tv_nama_pasien"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="Nama Pasien"
-            android:maxLength="20" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
@@ -57,9 +53,7 @@
             android:id="@+id/tv_jenis_kelamin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="L atau P"
-            android:maxLength="1" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
@@ -70,8 +64,7 @@
             android:id="@+id/tv_tanggal_lahir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="yyyy-mm-dd"
-            android:inputType="date" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
@@ -82,9 +75,7 @@
             android:id="@+id/tv_agama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Agama"
-            android:inputType="text"
-            android:maxLength="20" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
@@ -95,10 +86,7 @@
             android:id="@+id/tv_telp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-
-            android:hint="Telepon"
-            android:maxLength="100" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
@@ -109,9 +97,7 @@
             android:id="@+id/tv_alamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="Alamat"
-            android:maxLength="100" />
+            android:textStyle="bold"/>
         <Button
             android:id="@+id/button_kembali"
             android:layout_width="match_parent"

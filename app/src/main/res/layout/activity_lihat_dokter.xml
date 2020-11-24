@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.dokter.TambahDokter">
+    tools:context=".ui.dokter.LihatDokter">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="32dp"
-            android:text="Tambah Dokter"
+            android:text="Lihat Dokter"
             android:textAlignment="center"
             android:textSize="24sp" />
         <TextView
@@ -26,13 +26,11 @@
             android:layout_height="wrap_content"
             android:text="Nomor Dokter" />
 
-        <EditText
-            android:id="@+id/et_nomor_dokter"
+        <TextView
+            android:id="@+id/tv_nomor_dokter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nomor Dokter"
-            android:inputType="number"
-            android:maxLength="10"/>
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/textView2"
@@ -40,115 +38,93 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Nama Dokter" />
-        <EditText
-            android:id="@+id/et_nama_dokter"
+        <TextView
+            android:id="@+id/tv_nama_dokter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="Nama Dokter"
-            android:maxLength="20" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Jenis Kelamin" />
-        <EditText
-            android:id="@+id/et_jenis_kelamin"
+        <TextView
+            android:id="@+id/tv_jenis_kelamin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="L atau P"
-            android:maxLength="1" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Tanggal Lahir" />
-        <EditText
-            android:id="@+id/et_tanggal_lahir"
+        <TextView
+            android:id="@+id/tv_tanggal_lahir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="yyyy-mm-dd"
-            android:inputType="date" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Email" />
-        <EditText
-            android:id="@+id/et_email"
+        <TextView
+            android:id="@+id/tv_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:maxLength="20" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Telepon" />
-        <EditText
-            android:id="@+id/et_telp"
+        <TextView
+            android:id="@+id/tv_telp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-
-            android:hint="Telepon"
-            android:maxLength="100" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Alamat" />
-        <EditText
-            android:id="@+id/et_alamat"
+        <TextView
+            android:id="@+id/tv_alamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="Alamat"
-            android:maxLength="100" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Spesialis" />
-        <EditText
-            android:id="@+id/et_spesialis"
+        <TextView
+            android:id="@+id/tv_spesialis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="Spesialis"
-            android:maxLength="100" />
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Tarif" />
-        <EditText
-            android:id="@+id/et_tarif"
+        <TextView
+            android:id="@+id/tv_tarif"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:hint="Tarif"
-            android:maxLength="100" />
-        <Button
-            android:id="@+id/button_simpan_dokter"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:drawableLeft="@android:drawable/ic_menu_save"
-            android:text="Simpan" />
+            android:textStyle="bold"/>
         <Button
             android:id="@+id/button_kembali"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
             android:drawableLeft="@android:drawable/ic_media_previous"
             android:text="Kembali" />
     </LinearLayout>
