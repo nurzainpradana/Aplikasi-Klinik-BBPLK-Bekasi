@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Nomor Pasien" />
+            android:text="Nama Pasien" />
         <TextView
             android:id="@+id/tv_nomor_pasien"
             android:layout_width="match_parent"
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Nomor Dokter" />
+            android:text="Nama Dokter" />
         <TextView
             android:id="@+id/tv_nomor_dokter"
             android:layout_width="match_parent"
