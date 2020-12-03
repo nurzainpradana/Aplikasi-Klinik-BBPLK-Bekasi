@@ -3,6 +3,4 @@
 Aplikasi untuk CRUD (Create, Read, Update, Delete) sederhana untuk Data Pasien, Data Dokter, Data Rekam Medis. menggunakan Android Java dengan Database SQLite.
 
 ### Screenshoot Aplikasi CRUD Klinik
-![Screenshot](https://github.com/nurzainpradana/Aplikasi-Klinik-BBPLK-Bekasi/blob/master/Screenshoot/Screenshot_1606539022.png)
-![Screenshot](https://github.com/nurzainpradana/Aplikasi-Klinik-BBPLK-Bekasi/blob/master/Screenshoot/Screenshot_1606539027.png)
-![Screenshot](https://github.com/nurzainpradana/Aplikasi-Klinik-BBPLK-Bekasi/blob/master/Screenshoot/Screenshot_1606539039.png)
+![Screenshot](https://raw.githubusercontent.com/nurzainpradana/Aplikasi-Klinik-BBPLK-Bekasi/master/Screenshoot/Portofolio%20Aplikasi%20Klinik.png)
